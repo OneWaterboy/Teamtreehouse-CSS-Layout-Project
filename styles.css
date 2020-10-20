@@ -52,7 +52,7 @@ img {
 
 .name a,
 .main-nav a {
-	text-align: center;
+    text-align: center;  
 }
 
 .main-nav a {
@@ -82,6 +82,21 @@ img {
 
 .logo {
 	width: 190px;
+}
+
+/*==================================
+Style Main nav and Site Title
+====================================*/
+
+.main-nav li{
+    display: inline-block;
+    
+    
+}
+
+.name {
+    display: inline;
+    
 }
 
 /* ================================= 
