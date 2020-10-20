@@ -99,6 +99,17 @@ Style Main nav and Site Title
     
 }
 
+/*==================================
+Style Main Header postioning
+====================================*/
+
+.banner {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+}
+
 /* ================================= 
   Media Queries
 ==================================== */
