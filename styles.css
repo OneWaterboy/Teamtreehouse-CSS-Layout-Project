@@ -77,13 +77,24 @@ img {
 
 .banner {
 	color: #fff;
-	background: #3acec2;
+    background: #3acec2;
+    text-align: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    margin-bottom: 50px;
+
+}
+
+.col{
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 .main-footer {
 	background: #d9e4ea;
 	padding: 2em 0;
-	margin-top: 30px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 
@@ -94,26 +105,6 @@ img {
 	width: 190px;
 }
 
-/*==================================
-Style Main nav and Site Title
-====================================*/
-
-
-
-/*==================================
-Style banner content postioning
-====================================*/
-
-.banner {
-    text-align: center;
-    padding-top: 10em;
-    padding-bottom: 10em;
-
-}
-
-/*==================================
-Style column layout
-====================================*/
 
 
 /* ================================= 
@@ -130,6 +121,49 @@ Style column layout
 		content: " ";
 		display: table;
 		clear: both;
-	}
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
 
+    .name, .col {
+        float: left;
+    }
+
+    .primary,
+    .secondary {
+        width: 50%;
+
+    }
+    .main-nav {
+        float: right;
+    }
+    .main-nav li{
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .tagline {
+        font-size: 2em;
+    }
+
+}
+
+@media (min-width: 1025px){
+
+    .primary{
+        width: 50%;
+    }
+
+    .secondary,
+    .tertiary{
+        width: 25%;
+    }
+
+    .container{
+        width: 80%;
+        max-width: 1150px;
+    }
+
+    
 }
